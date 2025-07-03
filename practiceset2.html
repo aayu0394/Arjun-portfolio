@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arjun Portfolio</title>
+  <link rel="stylesheet" href="style2.css" />
+  <script defer src="script2.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <div class="logo">Arjun Singh Chouhan</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home">
+    <div class="home-content">
+      <h1>Hi, I'm Arjun Singh Chouhan</h1>
+      <p>Front-end Developer | Designer | Freelancer | Coding Enthusiast</p>
+     <div style="margin-top: 40px;">
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>I’m Arjun Singh Chouhan, a B.Sc. Computer Science student from Udaipur. I work in the calling department at a coaching center and manage time between two jobs. Passionate about front-end web development, video editing, and learning new tech like Python, AI/ML, and web design. I believe in balancing productivity with enjoyment and growth.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent dignissim, erat in tristique tristique, ipsum elit bibendum est, ac fermentum orci orci et metus.</p>
+  </section>
+
+  <section id="skills" class="section skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">React</div>
+      <div class="skill-card">UI/UX Design</div>
+      <div class="skill-card">Figma</div>
+      <div class="skill-card">Video Editing</div>
+      <div class="skill-card">Python</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio with animations and responsive design.</p>
+      </div>
+      <div class="project-card">
+        <h3>YouTube Clone</h3>
+        <p>Clone of YouTube using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Student Form</h3>
+        <p>Fully animated student form with clean CSS design and validations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    
+    <form id="contact-form">
+        
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>Made with ❤️ by Arjun Singh Chouhan | Udaipur</p>
+  </footer>
+
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thanks for reaching out! I will get back to you soon.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
